@@ -16,34 +16,34 @@ export const routes = [
     },
     {
         id: 2,
-        name: 'Deposit',
+        name: 'Withdrawals',
         icon: <RiLuggageDepositLine />,
-        path: '/deposit'
+        path: '/withdrawals'
     },
     {
         id: 3,
-        name: 'Withdraw',
+        name: 'Queries',
         icon: <GiMoneyStack />,
-        path: '/withdraw'
+        path: '/user-queries'
     },
-    {
-        id: 4,
-        name: 'Invest',
-        icon: <GrMoney />,
-        path: '/invest'
-    },
-    {
-        id: 5,
-        name: 'Deals and Offers',
-        icon: <MdOutlineLocalOffer />,
-        path: '/offers'
-    },
-    {
-        id: 6,
-        name: 'My Profile',
-        icon: <CgProfile />,
-        path: '/profile',
-    },
+    // {
+    //     id: 4,
+    //     name: 'Invest',
+    //     icon: <GrMoney />,
+    //     path: '/invest'
+    // },
+    // {
+    //     id: 5,
+    //     name: 'Deals and Offers',
+    //     icon: <MdOutlineLocalOffer />,
+    //     path: '/offers'
+    // },
+    // {
+    //     id: 6,
+    //     name: 'My Profile',
+    //     icon: <CgProfile />,
+    //     path: '/profile',
+    // },
 ]
 
 export const secondRoutes = [

@@ -520,6 +520,12 @@ a.navbarr_btn {
   }
 }
 
+@media screen and (max-width: 479px) {
+  .main_container {
+    height: 60rem;
+  }
+}
+
 
 /* Services Section CSS */
 .services {

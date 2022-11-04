@@ -67,7 +67,7 @@ export default function Home() {
                         </div>
                         <div className="top_images">
                             {/* <img src="/images/HiveInvest.png" className="shape" /> */}
-                            <img src="/images/HiveInvestPhone.png" className="phone" />
+                            <Image src="/images/HiveInvestPhone.png" alt="HiveInvest" width={220} height={440} />
                         </div>
                     </div>
                     <div className="services">

@@ -1,21 +1,28 @@
-import React, {useState} from 'react'
-
+import React, {useState, useEffect } from 'react'
+// import { useDispatch } from 'react-redux';
 import CardLineChart from "../../components/user/Cards/CardLineChart.js";
 import CardBarChart from "../../components/user/Cards/CardBarChart.js";
 import CardPageVisits from "../../components/user/Cards/CardPageVisits.js";
 import CardSocialTraffic from "../../components/user/Cards/CardSocialTraffic.js";
-import HeaderStats from "../../components/user/HeaderStats.js";
+import HeaderStats from "../../components/admin/HeaderStats.js";
 import Modal from '../../components/Modal'
 import Image from 'next/image'
 
+import { getUsers } from '../../actions/admins';
+
 // layout for page
-import Layout from '../../components/user/Layout'
+import Layout from '../../components/admin/Layout'
 
 
 export default function Dashboard() {
 
   const [flutterWave, setFlutterWave] = useState(false)
   const [paystack, setPaystack] = useState(false)
+  // const dispatch = useDispatch();
+
+  // useEffect(() => {
+  //   dispatch(getUsers()); 
+  // }, [dispatch]);
 
   return (
     <Layout>
